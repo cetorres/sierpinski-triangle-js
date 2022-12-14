@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Verdana, Arial;
+}
+
+h2 {
+  text-align: center;
+}
+
+canvas {
+  padding: 0;
+  margin: auto;
+  display: block;
+  border: 1px solid #000;
+}
+
+div {
+  padding: 0;
+  padding-top: 10px;
+  margin: auto;
+  display: block;
+  width: 600px;
+}
+
+input[type=number] {
+  width: 60px; 
+  height: 20px;
+}
+
+input[type=button] {
+  width: 70px; 
+  height: 30px;
+}
+
+.inputs-container {
+  float: left;
+  width: 50%;
+}
+
+.button-container {
+  float: left;
+  width: 50%;
+  text-align: right;
+}
